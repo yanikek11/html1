@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+body
+{
+    background: #EDEEF0;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,"Helvetica Neue", sans-serif;
+}
+.header
+{
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    background: #4A76A8;
+}
+.top_mid
+{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 20px 0 0 ;
+}
+.logo
+{
+    position: absolute;
+    margin-top: 11px ;
+    width: 150px;
+	height: 42px;
+    cursor: pointer;
+}
+.find
+{
+    position: absolute;
+    top: 7px;
+    margin-left: 165px;
+     
+}
+.find #search
+{
+    
+    width: 190px;
+	padding: 7px 10px 6px 30px;
+	outline:none;
+	border: none;
+	border-radius: 14px;
+	background: #224b79;
+	font-size: 13px;
+    
+}
+.find i
+{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    color: #86a1bf;
+    
+}
+.find #search::placeholder
+{
+    font-size: 12.5px;
+    color: #86a1bf;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    
+}
+.find #search:focus
+{
+	background: #fff;
+}
+.btn-language
+{
+    position: absolute;
+    margin-left: 843px;
+    border: none;
+    padding: 13px 3px 13px 3px;
+	font-size: 12.5px;
+	font-weight: 700;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: white;
+    width: 120px;
+    height: 42px;
+    background: #4A76A8
+}
+.btn-language:hover
+{
+
+    background: rgb(42, 88, 133,0.7);
+    cursor: pointer;
+}
+.content
+{
+    position: fixed;
+	width: 960px;
+	margin: 76px 0 80px 200px;
+}
+.main
+{
+	margin: 0;
+	width: 55%;	
+    
+}
+h1
+{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	padding: 13px 0 0 0; 
+	font-size: 22px;
+	font-weight: 500;	
+    line-height:13px;
+}
+.article
+{
+	width: 100%;
+    color:#222222;
+	text-align: center;
+    font-weight: 400;
+	font-size: 14px;
+    line-height:23px;
+    
+}
+.data-entry
+{
+    height: 140px;
+    width: 276px;
+    padding: 25px 25px 25px 25px;
+    position: fixed;
+    left: 835px;
+    top: 72px;
+    background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px #d0d0d0;margin-bottom: 30px;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px #d0d0d0;
+    
+}
+#login, #password, #name
+{
+    width: 244px;
+	height:31px;
+	font-size: 14px;
+	outline:none;
+	border: 1px solid #d0d0d0;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	font-weight: 500;
+    padding-left: 12px;
+}
+#surname
+{
+    width: 244px;
+	height:31px;
+	font-size: 14px;
+	outline:none;
+	border: 1px solid #d0d0d0;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	font-weight: 500;
+    padding-left: 12px;
+}
+#login::placeholder, #password::placeholder
+{
+    color: #828482;
+}
+#login:focus, #password:focus
+{
+    color: black;
+}
+#enter
+{
+    padding: 9px 30px;
+	color: #fff;
+	background: #5181b8;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	font-size: 13.5px;
+	font-weight: 500;
+}
+#enter:active
+{
+    padding-top: 10px;
+	padding-bottom: 8px;
+	background: #4872a3;
+}
+#enter:hover
+{
+    background: rgb(81,129,184,0.9);
+    cursor: pointer;
+}
+.forget-password{
+	margin-left: 30px;
+	text-decoration: none;
+	color: #4B7298;
+	font-size: 12.5px;
+}
+.forget-password:hover{
+	text-decoration: underline;
+}
+.phones
+{
+    margin-top:35px;
+}
+.phones#first
+{
+    margin-left:20px;
+}
+.data-entry2
+{
+    height: 330px;
+    width: 276px;
+    padding: 25px 25px 25px 25px;
+    position: fixed;
+    left: 835px;
+    top: 272px;
+    background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px #d0d0d0;margin-bottom: 30px;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px #d0d0d0;
+    margin-top: 20px;
+}
+h2
+{
+	margin: 0;
+	padding: 0; 
+	width: 100%;
+	text-align: center;	
+	font-size: 20px;
+	font-weight: 500;	
+}
+.registration
+{
+	margin: 5px auto 20px;
+	font-size: 12px;
+	color: #a9a9a9;
+    text-align: center;
+}
+.db
+{
+    margin: 0;
+	width: 100%;
+	text-align: left;
+}
+.date
+{
+    color: #a9a9a9;
+	width: 150px;
+	font-size: 13.5px;
+	/*margin: 0 0 10px 25px;*/
+	font-weight: 600;	
+}
+.select
+{
+	padding: 4px 8px;
+	margin-right: 5px;
+	font-size: 14px;
+	color: #a9a9a9;
+	border: 1px solid #d0d0d0;
+	border-radius: 3px;
+    font-weight: 400
+}
